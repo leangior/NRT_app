@@ -59,7 +59,7 @@ function get_layers
 	
 }
 #--
-#CALL WEBSERVICES
+#Procedimiento (scrap)
 parsapp="location="$west""$south"&day=$doy&year=$year&product=$codprod"
 webservice="https://$site/$app?$parsapp"
 if ! perl nasa_floodmap.pl $webservice ${prods[$product]} ${layers[${prods[$product]}]} $format $output; then echo "problema al intentar captura"; fi
