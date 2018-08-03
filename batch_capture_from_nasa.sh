@@ -1,8 +1,8 @@
-#BATCH PARA CAPTURA DE DATOS NRT GLOBAL FLOOD MAPPING 
-#dependencia (nasa_floodmap.pl)
-#--
+#!/bin/bash
 set -e
 export PERL_LWP_SSL_VERIFY_HOSTNAME=0
+#BATCH PARA CAPTURA DE DATOS NRT GLOBAL FLOOD MAPPING 
+#dependencia (nasa_floodmap.pl)
 #--
 #PARAMETROS EN SITIO WEB CAPTURA (lista primero opt por defecto)
 site=floodmap.modaps.eosdis.nasa.gov
